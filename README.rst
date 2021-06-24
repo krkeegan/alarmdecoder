@@ -7,6 +7,15 @@
 .. _readthedocs: http://alarmdecoder.readthedocs.org
 .. _examples: http://github.com/nutechsoftware/alarmdecoder/tree/master/examples
 
+========
+Minor Changes from Upstream
+========
+
+This fork contains some minor fixes that have not (or may not ever be) incorporated upstream.  These are useful fixes for me:
+
+- Update zone Expander Attribute when Expander Message received (see `#62 <https://github.com/nutechsoftware/alarmdecoder/pull/62>`_)
+- Proper zone number calculation on expander zones for SE panels (see `#63 <https://github.com/nutechsoftware/alarmdecoder/pull/63>`_)
+
 ============
 AlarmDecoder
 ============
