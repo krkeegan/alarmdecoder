@@ -389,6 +389,18 @@ class AlarmDecoder(object):
         """
         self.send("L{0:02}0\r".format(zone))
 
+    def get_zone(self, zone):
+        """
+        Gets the zone object from the zone number.
+
+        :param zone: zone to get
+        :type zone: int
+        """
+        zone_object = None
+        if zone in self._zonetracker.zones:
+            zone_object = self._zonetracker.zones[zone]
+        return zone_object
+
     def _wire_events(self):
         """
         Wires up the internal device events.

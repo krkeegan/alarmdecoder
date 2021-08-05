@@ -15,6 +15,7 @@ This fork contains some minor fixes that have not (or may not ever be) incorpora
 
 - Update zone Expander Attribute when Expander Message received (see `#62 <https://github.com/nutechsoftware/alarmdecoder/pull/62>`_)
 - Proper zone number calculation on expander zones for SE panels (see `#63 <https://github.com/nutechsoftware/alarmdecoder/pull/63>`_)
+- Add `get_zone` method to device to allow for retrieving zone objects.
 
 ============
 AlarmDecoder
